@@ -1,5 +1,5 @@
-print('from . import aux #[ok]')
-from . import aux #[ok]
+print('from . import _aux #[ok]')
+from . import _aux #[ok]
 
-print('from .aux import mod2 #[ok]')
-from .aux import mod2 #[ok]
+print('from ._aux import mod2 #[ok]')
+from ._aux import mod2 #[ok]
