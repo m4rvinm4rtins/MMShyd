@@ -1,0 +1,8 @@
+MMShyd.egg-info/
+MMShyd/__pycache__/
+**.pyc
+**.ipynb_checkpoints
+build
+dist
+MMShyd.egg-info
+
